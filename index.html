@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mobile</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+  <script type="module" src="./session.js"></script>
+  <!-- 상단메뉴 -->
+  <div id="container">
+    <nav>
+      <button class="prev_btn"></button>
+      <button class="more_btn"></button>
+    </nav>
+    <!-- 베댓 -->
+    
+    <div class="best_comment">
+      <div class="bc_userinfo">
+        <img src="" alt="" class="bc_profile">
+        <img src="" alt="" class="bc_sns">
+        <span class="bc_user"></span>
+        <span class="bc_time"></span>
+      </div>
+      <p class="bc_text"></p>
+      <div class="content_btnbox">
+      </div>
+    </div>
+    <!-- 댓글 -->
+    <ul class="comment_box">
+    </ul>
+    <!-- 작성창 -->
+    <form class="comment_form">
+      <p>나도 한마디!</p>
+      <input type="text" class="comment_input">
+      <button class="comment_btn">등록</button>
+    </form>
+    <!-- 모달창 -->
+    <div class="login_modal hidden">
+      <div class="modal_box">
+        <button class="social_login" name="naver">네이버로 로그인</button>
+        <button class="social_login" name="kakao">카카오로 로그인</button>
+        <button class="social_login" name="facebook">페이스북으로 로그인</button>
+        <button class="social_login" name="google">구글로 로그인</button>
+        <button class="social_login" name="twitter">트위터로 로그인</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
